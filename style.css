@@ -57,6 +57,7 @@ header div h1{
 header div:nth-child(1) span{
     color: var(--main);
     font-size: 2.8rem;
+    
 }
 .header-icons span{
     color: var(--seccolor);
@@ -113,10 +114,10 @@ filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
 }
 .auto-type{
-color: #18d26e;
+color:#02c05a;
 font-size: 2rem;
-font-family: 'Poppins';
-font-weight: 500;
+font-family: 'Montserrat';
+font-weight: 700;
 }
 .section-2 h1{
     color:rgb(173, 170, 170);
@@ -382,7 +383,9 @@ transition: all 0.3s ease-in-out;
 .section-1 .col-lg-6:nth-child(1){
     margin-top: 80px !important;
 }
-@media only screen and (max-width:578px){
+
+
+@media only screen and (max-width:1100px){
 .links-tag-a{
     display: none !important;
 }
